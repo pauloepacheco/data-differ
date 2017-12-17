@@ -67,7 +67,7 @@ The results shall provide the following info in JSON format
       ]
     }
 ```
-  Sample of a content does not match comparison
+  Sample of a content for the does not match comparison
 ```json  
   {
     "message": "CONTENT_DOES_NOT_MATCH",
