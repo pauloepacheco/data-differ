@@ -97,4 +97,11 @@ The results shall provide the following info in JSON format
   **JUnit**
   
   **Mockito**
-							
+
+## Suggestion for Improvements
+   **Swagger** to describe the API using a common language, so everybody can understand
+   
+   **Circuit Breaker** for latency and fault tolerance
+   
+   
+   
