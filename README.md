@@ -49,7 +49,7 @@ The results shall provide the following info in JSON format
       
 ### Samples Response
 
-    Sample of a validation response payload
+  Sample of a validation response payload
 ```json      
     {
       "error_category": "Validation Error",
