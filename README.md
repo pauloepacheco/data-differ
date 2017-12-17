@@ -33,7 +33,7 @@ The results shall provide the following info in JSON format
 	mvn package  - Creates a fat jar to be executed
 	mvn test     - Runs all the written test cases
   
-### Samples Request
+### Samples for request
 
   Sending a request to the **left** endpoint
   
@@ -47,7 +47,7 @@ The results shall provide the following info in JSON format
   
       curl -X GET -i <host>/v1/diff/{id}
       
-### Samples Response
+### Samples for response
 
   Sample of a validation response payload
 ```json      
