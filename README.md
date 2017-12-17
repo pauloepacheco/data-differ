@@ -31,17 +31,17 @@ The results shall provide the following info in JSON format
 ## Usage
 	mvn-boot:run - Starts the servless application and uses an embedded Tomcat container to expose the REST API's
 	mvn package  - Creates a fat jar to be executed
-	mvn test     - Runs all the test cases written
+	mvn test     - Runs all the written test cases
   
 ### Samples Request
 
   Sending a request to the **left** endpoint
   
-      curl -i -H "Content-Type: application/json" -X POST -d '{"encoded_data":"cGF1bG8"}' http://<host>/v1/diff/{id}/left
+      curl -i -H "Content-Type: application/json" -X PUT -d '{"encoded_data":"cGF1bG8"}' http://<host>/v1/diff/{id}/left
   
   Sending a request to the **right** endpoint
   
-      curl -i -H "Content-Type: application/json" -X POST -d '{"encoded_data":"cGF1bG8"}' http://<host>/v1/diff/{id}/left
+      curl -i -H "Content-Type: application/json" -X PUT -d '{"encoded_data":"cGF1bG8"}' http://<host>/v1/diff/{id}/left
       
   Sending a request to the **diff** endpoint for comparison
   
