@@ -90,6 +90,8 @@ The results shall provide the following info in JSON format
   
   **Spring Framework**
   
+  **Maven**
+  
   **H2 Database**
   
   **JUnit**
